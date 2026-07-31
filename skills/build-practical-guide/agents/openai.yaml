@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Practical Guide"
+  short_description: "Build verified guides or modular learning packages"
+  default_prompt: "Use $build-practical-guide to turn these sources into a verified beginner-friendly guide or modular learning package."

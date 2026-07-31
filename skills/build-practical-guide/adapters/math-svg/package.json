@@ -1,0 +1,12 @@
+{
+  "name": "build-practical-guide-math-svg-adapter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capability": "node capability.mjs",
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "mathjax": "4.1.3"
+  }
+}
