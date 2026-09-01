@@ -11,6 +11,9 @@ Markdown 教學指南或模組化學習教材。
 它特別重視：
 
 - 區分已驗證事實、合理推論與未知資訊；
+- 先建立具體讀者模型，再從證據、邏輯、實作與讀者四個層次自我驗證；
+- 依風險調整驗證深度，並在重要決策中提供 2–4 個具成本、效益與
+  讀者影響說明的選項；
 - 從具體例子建立數學與技術概念；
 - 以教學推理結構設計技術插圖；
 - 維護既有教材時保留授權、證據與可恢復性邊界。
@@ -63,6 +66,10 @@ verified, beginner-friendly Markdown guides or modular learning packages.
 It emphasizes:
 
 - separating verified facts, reasonable inferences, and unknowns;
+- building a concrete reader model, then self-validating evidence, logic,
+  practical usability, and reader fit;
+- scaling validation to risk and presenting 2–4 consequential-decision options
+  with benefits, costs, reader impact, and evidence;
 - building mathematical and technical ideas from concrete examples;
 - designing instructional visuals around the reader's reasoning process;
 - preserving authorization, evidence, and recoverability boundaries.

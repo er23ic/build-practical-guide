@@ -47,7 +47,9 @@ Obtain:
 
 Determine or ask for these only when they materially affect the result:
 
-- Intended audience and assumed knowledge. Default to a beginner with basic computer skills.
+- Reader goal, relevant prior knowledge, use context, constraints, risk
+  perception, and success criteria. Default missing values to clearly labeled
+  provisional assumptions rather than invented reader facts.
 - Desired guide language and tone. Default to the user's language and clear instructional prose.
 - Target environment or versions.
 - Output mode and, for file output, the exact destination or approved package
@@ -107,6 +109,12 @@ State the reader, objective, expected outcome, prerequisites, environment
 assumptions, desired depth, verification approach, and output mode. Ask only
 when missing information would materially change the structure, learning
 outcome, or safety.
+
+Read [reader-centered-validation.md](references/reader-centered-validation.md).
+Build its concrete reader model for every output mode. Keep source-supported
+reader information distinct from provisional assumptions, and expose only the
+concise intended-reader, prerequisite, and expected-outcome statement in the
+guide itself.
 
 When substantive mathematics is required, read
 [math-teaching.md](references/math-teaching.md). Unless the user states
@@ -203,12 +211,12 @@ already has a canonical owner.
 
 ### 8. Validate
 
-Check the draft against the source inventory and verify that:
+Run the evidence, logic, practical, and reader layers in
+[reader-centered-validation.md](references/reader-centered-validation.md).
+Correct supported local defects that preserve the user's intent and
+authorization boundary, then rerun every affected layer. Check the resulting
+draft against the source inventory and verify these global invariants:
 
-- Every important factual claim has an evidence status.
-- No unperformed command or test is described as completed.
-- Commands, paths, versions, and expected results are internally consistent.
-- A beginner can identify prerequisites, perform each step, and judge success.
 - Risks and rollback or recovery guidance appear where persistent changes occur.
 - No secrets, private data, unsupported absolute paths, or unrelated project details were introduced.
 - References support the claims attributed to them.
@@ -252,7 +260,10 @@ End with:
 
 - Output created or proposed
 - Sources consulted
-- Verification performed
+- Concrete reader model, with provisional assumptions distinguished from
+  source-supported attributes
+- Evidence, logic, practical, and reader validation results using `Passed`,
+  `Partially passed`, `Unverified`, or `Decision needed`
 - Corrections made to source material
 - Unknown or unverified information
 - Known limitations
