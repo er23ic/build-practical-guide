@@ -23,9 +23,7 @@ Markdown 教學指南或模組化學習教材。
 將 [`skills/build-practical-guide`](skills/build-practical-guide) 複製到
 Codex 的 skills 目錄，然後重新啟動或開啟新的工作階段：
 
-```bash
-cp -R skills/build-practical-guide ~/.codex/skills/
-```
+或直接貼連結請agent幫忙安裝
 
 使用範例：
 
