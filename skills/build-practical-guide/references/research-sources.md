@@ -117,7 +117,7 @@ help a reader judge the evidence:
 - Research boundary and known limitations
 
 For video, also record which evidence channels were and were not reviewed. For
-a learning package, keep the detailed ledger in the approved source artifact;
+a learning path, keep the detailed ledger in the approved source artifact;
 other modules should cite or link to it rather than duplicate the audit.
 
 Do not manufacture metadata that the source does not expose. A bare URL list is

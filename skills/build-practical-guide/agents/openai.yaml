@@ -1,4 +1,4 @@
 interface:
   display_name: "Build Practical Guide"
-  short_description: "Build verified guides or modular learning packages"
-  default_prompt: "Use $build-practical-guide to turn these sources into a verified beginner-friendly guide or modular learning package."
+  short_description: "Build complete, connected self-study material"
+  default_prompt: "Use $build-practical-guide to design complete self-study material from these sources. Start by discussing the learner, knowledge boundary, evidence needs, and teaching route; wait for confirmation before drafting."

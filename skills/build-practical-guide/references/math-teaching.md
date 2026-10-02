@@ -1,39 +1,29 @@
-# Teaching Mathematics to Returning Beginners
+# Teaching Mathematics in Self-Study Material
 
-Use this reference when a guide depends on formulas, matrices, geometry,
-statistics, calculus, or other substantive mathematics.
+Use this reference when a unit depends on formulas, matrices, geometry,
+statistics, calculus, or other substantive mathematics. Tailor the route to the
+confirmed reader's prior knowledge and learning goal; do not assume a fixed
+mathematics level from labels such as “beginner” or “graduate student.” If a
+missing prerequisite would change the route, discuss it during preflight.
 
-## Default Reader
+## Build the Mathematical Reasoning Route
 
-Unless the user specifies a different level, assume the reader:
+Connect the derivation to the subject's motivating question. A useful order
+often includes:
 
-- Can perform basic arithmetic and follow simple algebra such as solving
-  `2x = 6`
-- May not remember school mathematics vocabulary
-- Has not studied, or no longer remembers, linear algebra or calculus
-- Is comfortable learning one new symbol or operation at a time
-- Needs to connect formulas to quantities, units, shapes, and observable
-  examples before using them
+1. The quantity or relationship the learner needs to understand
+2. The concrete or visual model that gives those quantities meaning
+3. Definitions, assumptions, and prerequisite operations
+4. The new mathematical operation or representation
+5. A worked derivation with every important intermediate step
+6. A worked case showing how the result answers the original question
+7. Generalization, alternative conventions, formal proof, and limitations when
+   they belong to the agreed scope
 
-Describe this level concretely in the teaching contract. Labels such as
-“beginner” or “basic mathematics” are too ambiguous on their own.
-
-## Build a Mathematical Staircase
-
-Order mathematical teaching from least abstract to most abstract:
-
-1. A physical or numerical question the learner already understands
-2. A small example using familiar numbers
-3. A picture, spatial relationship, table, or verbal model
-4. The new operation performed one step at a time
-5. The compact symbolic notation for those same steps
-6. A second example the learner can predict or calculate
-7. Generalization, derivation, or formal detail only when needed
-
-Do not introduce a compact formula and then explain several prerequisite
-operations after it. If a later chapter needs matrix multiplication,
-transpose, inverse, identity, determinant, vector dimensions, or coordinate
-notation, teach or link those concepts before the formula that uses them.
+This is a reasoning route, not a mandate to begin with a simplified example or
+to delay formal content. Introduce an abstraction when it is needed and explain
+how it connects to the problem. Do not introduce a compact formula and then
+leave its prerequisite operations unexplained.
 
 ## Introduce Every Symbol and Operation
 
@@ -47,46 +37,46 @@ On first use, state:
 - What operation is being performed
 - What the result means in the learner's original problem
 
-Do not rely on familiar-looking notation. For example, explain that `T` may
-mean a transform in one expression and transpose when written as a superscript
-in another.
+Do not rely on familiar-looking notation. For example, explain when `T` means
+a transform and when a superscript `T` denotes a transpose.
 
 ## Work Examples Without Hidden Steps
 
-For the first worked example of an operation:
+For a worked example:
 
-- Use small numbers that are easy to check by hand
-- Show intermediate values, not only the final matrix or formula
-- Explain why each step is allowed
-- Keep coordinate frames, units, and dimensions visible
-- End with a plain-language interpretation
-- Give one independent check, such as reversing the operation, checking a
-  known point, or confirming dimensions and units
+- Show the assumptions and intermediate quantities that support the result.
+- Explain why important transformations or operations are valid.
+- Keep dimensions, units, signs, and coordinate conventions visible where
+  relevant.
+- Connect the result back to the motivating question in plain language.
+- State which steps later examples abbreviate and where their full explanation
+  appears.
 
-After the full example, later examples may abbreviate steps that the learner
-has already practiced. State explicitly when a step is being abbreviated.
+Do not require the learner to complete a problem set. A second worked case may
+show a contrasting condition, boundary, or common failure when that improves
+understanding.
 
-## Separate Core Understanding From Optional Depth
+## Keep the Agreed Scope Complete
 
-The core route should teach enough mathematics to interpret and safely use the
-result. Put proofs, general derivations, numerical conditioning, alternative
-conventions, and advanced notation in an optional deep dive when they would
-interrupt the beginner route.
+Mark foundational, central, optional, and advanced material according to the
+confirmed reader model and learning outcome. Optional depth remains included
+when it belongs to the approved scope; it is not a license to remove important
+derivations or limitations. Link related concepts to their canonical
+explanations and preserve the main reasoning route.
 
-Do not remove important limitations merely to keep the core simple. State the
-limitation in plain language and link to optional depth.
+## Validate the Mathematical Account
 
-## Validate the Learning Level
+Before delivery, check that:
 
-Before delivery, confirm that a reader at the default level can:
+- Each symbol and prerequisite is explained before it is relied on.
+- Derivations follow from stated assumptions and definitions.
+- Calculations, units, shapes, and conventions are internally consistent.
+- Worked examples connect the formal result to the original question.
+- Important limitations, alternative conventions, and uncertainty are
+  accurately described and supported.
+- A reader can follow the argument without an unexplained mathematical jump.
 
-1. Define every prerequisite term used by the first formula.
-2. Read the formula aloud and identify each object's role, shape, and units.
-3. Reproduce the first worked example without an unexplained algebraic jump.
-4. Explain the result in ordinary language.
-5. Perform one small calculation or prediction and check it independently.
-6. Identify where optional formal detail begins.
-
-Search for symbols and operations that appear before their canonical
-explanation. A glossary is a lookup aid, not a substitute for teaching a
-prerequisite in the reading route.
+A plausible derivation is not evidence of correctness by itself. Check
+important claims and results against appropriate authoritative sources or
+independent calculations when available and authorized. Mark unavailable checks
+as unverified.

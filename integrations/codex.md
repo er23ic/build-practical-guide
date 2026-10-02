@@ -20,8 +20,9 @@ Open a new Codex session after installation. The installed folder must contain
 Explicit invocation:
 
 ```text
-Use $build-practical-guide to turn these project notes into a verified
-beginner-friendly Markdown guide.
+Use $build-practical-guide to turn these sources into complete self-study
+material. Start by discussing the learner, knowledge boundary, evidence needs,
+and teaching route; wait for confirmation before drafting.
 ```
 
 Codex may also select the Skill automatically when the request matches the

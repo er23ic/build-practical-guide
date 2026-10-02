@@ -4,9 +4,10 @@
 
 ## 繁體中文
 
-`build-practical-guide` 是一個 AI Agent Skill，用來把對話、工作筆記、
-錯誤紀錄、既有文件與專案證據，整理成經過驗證、適合初學者閱讀的
-Markdown 教學指南或模組化學習教材。
+`build-practical-guide` 是一個 AI Agent Skill，用來把對話、研究、工作筆記、
+專案證據與其他適用來源，整理成完整、以證據為基礎的自學教材。它會依
+讀者需求設計連貫的學習敘事、知識地圖、完整解說與可導覽的單元或模組路徑；
+只有在使用者明確要求時，才改用速查指南。
 
 它特別重視：
 
@@ -20,16 +21,15 @@ Markdown 教學指南或模組化學習教材。
 
 ### Codex 安裝
 
-將 [`skills/build-practical-guide`](skills/build-practical-guide) 複製到
-Codex 的 skills 目錄，然後重新啟動或開啟新的工作階段：
-
-或直接貼連結請agent幫忙安裝
+將此 repository 的連結貼給 AI Agent，請它協助把 Skill 安裝到 Codex skills
+目錄，然後重新啟動或開啟新的工作階段。也可以參考下方整合說明自行安裝。
 
 使用範例：
 
 ```text
-Use $build-practical-guide to turn these notes into a verified,
-beginner-friendly Markdown guide.
+Use $build-practical-guide to turn these sources into complete self-study
+material. Start by discussing the learner, knowledge boundary, evidence needs,
+and teaching route; wait for confirmation before drafting.
 ```
 
 詳細說明請見 [`integrations/codex.md`](integrations/codex.md)。
@@ -57,9 +57,12 @@ npm run capability
 
 ## English
 
-`build-practical-guide` is an AI agent skill for turning conversations, work
-notes, error records, existing documentation, and project evidence into
-verified, beginner-friendly Markdown guides or modular learning packages.
+`build-practical-guide` is an AI agent skill for turning conversations,
+research, work notes, project evidence, and other in-scope sources into complete,
+evidence-grounded self-study material. It designs a coherent learning narrative,
+a connected knowledge map, worked explanations, and a navigable unit or modular
+learning path for the intended learner. A quick reference guide is used only
+when explicitly requested.
 
 It emphasizes:
 
@@ -74,18 +77,16 @@ It emphasizes:
 
 ### Install for Codex
 
-Copy [`skills/build-practical-guide`](skills/build-practical-guide) into your
-Codex skills directory, then restart Codex or begin a new session:
-
-```bash
-cp -R skills/build-practical-guide ~/.codex/skills/
-```
+Share this repository link with an AI agent and ask it to install the Skill
+for Codex. Start a new session after installation. You can also follow the
+platform-specific instructions below to install it yourself.
 
 Example:
 
 ```text
-Use $build-practical-guide to turn these notes into a verified,
-beginner-friendly Markdown guide.
+Use $build-practical-guide to turn these sources into complete self-study
+material. Start by discussing the learner, knowledge boundary, evidence needs,
+and teaching route; wait for confirmation before drafting.
 ```
 
 See [`integrations/codex.md`](integrations/codex.md) for details.

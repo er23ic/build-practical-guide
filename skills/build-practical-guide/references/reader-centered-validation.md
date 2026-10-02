@@ -153,8 +153,8 @@ When scope and risk point to different tiers, use the higher one.
 | Tier | Typical output | Minimum validation depth |
 |---|---|---|
 | **Low-risk draft** | Chat draft, proposal, or explanatory outline | Provisional reader model, static four-layer validation, explicit evidence and execution limits. |
-| **Formal guide** | Named standalone guide intended for reuse | Complete reader model and validation summary, source and command checks, full practical walkthrough, persistent-change recovery, and preservation of the summary with the document. |
-| **Substantial learning package** | Multiple modules, prerequisite relationships, reading routes, high cognitive load, or continued growth | Formal-guide checks plus complete-tree validation of prerequisite edges, routes, terminology, canonical concept ownership, exercises, evidence labels, and cross-module conclusions; representative Human QA is a separate required or pending activity. |
+| **Formal unit or reference** | Named standalone learning unit or explicitly requested reference intended for reuse | Complete reader model and validation summary, source and command checks, full practical walkthrough when procedural, persistent-change recovery, and preservation of the summary with the document. |
+| **Substantial learning path** | Multiple modules, prerequisite relationships, reading routes, high cognitive load, or continued growth | Formal-guide checks plus complete-tree validation of prerequisite edges, routes, terminology, canonical concept ownership, worked cases or approved learner prompts, evidence labels, and cross-module conclusions; representative Human QA is a separate required or pending activity. |
 | **High-stakes guidance** | Medical, legal, financial, security, destructive, safety-critical, or similarly consequential decisions or procedures | All applicable package or guide checks plus relevant primary evidence, independent execution or calculation checks where safe and authorized, representative-user evidence, appropriate domain-expert review, and real-world validation proportionate to the consequence. |
 
 A deliverable can be useful before every higher-tier activity occurs, but report
@@ -162,7 +162,7 @@ the missing activity as `Unverified` or `Decision needed`. Do not call
 high-stakes guidance fully validated merely because its prose, links, files, or
 simulated reader walkthrough passed.
 
-For a learning package, integrate the four validation layers with the existing
+For a learning path, integrate the four validation layers with the existing
 specialist workflows instead of replacing them:
 
 - validate prerequisite edges, reading routes, terminology, canonical concept
@@ -223,14 +223,15 @@ When Human QA contradicts a reader-model attribute:
 2. Update the model using the observed evidence, while avoiding broader claims
    than the participant and task support.
 3. Identify every explanation, prerequisite edge, reading route, example,
-   exercise, visual, success criterion, and validation result that depended on
+   worked case, optional learner prompt, visual, success criterion, and
+   validation result that depended on
    the old attribute.
 4. Correct or mark those items pending, then rerun all affected validation and
    specialist checks.
 5. Record the revised evidence state and any additional representative Human QA
    still needed.
 
-For important, high-cognitive-load, or substantial learning packages, treat
+For important, high-cognitive-load, or substantial learning paths, treat
 representative Human QA as a distinct validation activity rather than an
 optional synonym for self-review. For high-stakes content, also require the
 appropriate domain and real-world evidence; neither Human QA nor expert review

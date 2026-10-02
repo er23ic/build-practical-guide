@@ -20,10 +20,12 @@ For an AI tool that can read local files:
 Suggested request:
 
 ```text
-Follow the workflow in skills/build-practical-guide/SKILL.md. Read only the
-referenced files needed for this task. Turn the supplied material into a
-verified beginner-friendly Markdown guide, and report unsupported claims or
-missing evidence instead of inventing them.
+Follow the workflow in skills/build-practical-guide/SKILL.md. Start with the
+user-visible preflight discussion: establish the intended reader, knowledge
+boundary, evidence needs, learning form, and teaching route. Wait for my
+confirmation before drafting or creating files. Then create complete,
+evidence-grounded self-study material for the confirmed scope. Report
+unsupported claims or missing evidence instead of inventing them.
 ```
 
 ## Compatibility boundary
